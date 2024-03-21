@@ -12,7 +12,6 @@ import java.math.BigDecimal;
 public class RequestDTO {
     private String rqUID;
     private String clientId;
-    private String currency;
     private BigDecimal balance;
     private BigDecimal maxlimit;
     private String account;
