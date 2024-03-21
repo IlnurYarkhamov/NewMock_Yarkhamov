@@ -1,0 +1,12 @@
+
+y
+java:S2629="\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Èœè‡8¿‡Æ€æ1
+~
+java:S2629>"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(â÷ÖÄüÿÿÿÿ8À‡Æ€æ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚ôìğÿÿÿÿÿ8Á‡Æ€æ1
+:
+java:S21191"Save and re-use this "Random".(¼İÅf8Œ‰Æ€æ1
+^
+java:S3457="AFormat specifiers should be used instead of string concatenation.(Èœè‡8‘‰Æ€æ1
+c
+java:S3457>"AFormat specifiers should be used instead of string concatenation.(â÷ÖÄüÿÿÿÿ8“‰Æ€æ1

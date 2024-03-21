@@ -33,23 +33,17 @@ public class MainController {
             char firstDigit = clientId.charAt(0);
             BigDecimal maxLimit;
             String rqUID = requestDTO.getRqUID();
+            String currencyResponse = "";
 
             if (firstDigit == '8') {
                 maxLimit = new BigDecimal(2000);
+                currencyResponse = "US";
             } else if (firstDigit == '9') {
                 maxLimit = new BigDecimal(1000);
+                currencyResponse = "EU";
             } else {
                 maxLimit = new BigDecimal(10000);
-            }
-
-            String currencyRequest = requestDTO.getCurrency();
-            String currencyResponse = "";
-            if (currencyRequest.equals("RUB")) {
                 currencyResponse = "RUB";
-            } else if (currencyRequest.equals("US")) {
-                currencyResponse = "US";
-            } else {
-                currencyResponse = "EU";
             }
 
             Random random = new Random();
